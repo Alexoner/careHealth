@@ -21,3 +21,8 @@ TODO:
 2. Optimize backend algorithm
 3. Data crawling
 4. UI beautifing
+
+Dependency:
+==========
+python 2.7
+django 1.7
