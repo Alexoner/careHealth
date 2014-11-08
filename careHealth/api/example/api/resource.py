@@ -7,6 +7,6 @@ class ExampleResource(Resource):
 
     def __init__(self):
         super(ExampleResource, self).__init__('example')
-        self.add_action(ExampleDetail)
-        self.add_action(ExampleCollection)
+        self.add_action(ExampleCollection,)
+        self.add_action(ExampleDetail,)
 
