@@ -26,3 +26,4 @@ Dependency:
 ==========
 python 2.7
 django 1.7
+sqlite3
