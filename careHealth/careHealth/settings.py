@@ -35,6 +35,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'accounts',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -47,7 +48,7 @@ MIDDLEWARE_CLASSES = (
 )
 
 API_IDS = {
-    'api.example':1,
+    'api.example': 1,
 }
 
 TEMPLATE_DIRS = (
