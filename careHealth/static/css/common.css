@@ -1,0 +1,114 @@
+/*
+ *
+ * change bootstrap style code
+ *
+ */
+.btn-primary{
+    background-color:#377bee;
+    border-color:#377bee;
+}
+.panel-primary{
+    border-color:#377bee;
+}
+.panel-primary>.panel-heading{
+    background-color:#377bee;
+    border-color:#377bee;
+}
+.columns .list-group{
+    margin-bottom:0px;
+}
+
+/*
+ *
+ * self css style code
+ *
+ */
+.navigator{
+    width:100%;
+    padding:0;
+    margin:0;
+}
+.quick-navigator{
+    background-color:#eee;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.main-navigator{
+    background-color:#377bee;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:16px;
+}
+.login-click{
+    margin-left:5px;
+    margin-right:5px;
+    cursor:pointer;
+    color:#377bee;
+}
+.register-click{
+    margin-left:5px;
+    margin-right:5px;
+    cursor:pointer;
+    color:#377bee;
+}
+.after_login{
+    display:none;
+}
+.after_login a{
+    margin-left:10px;
+    margin-right:10px;
+    text-decoration:none;
+    color:#333;
+}
+.quick-tabs a{
+    margin-left:5px;
+    margin-right:5px;
+    text-decoration:none;
+    color:#333;
+}
+.quick-tabs a:hover{
+    color:#428bca;
+}
+.main-navigator a{
+    color:#ffffff;
+    margin-left:10px;
+}
+.main-navigator span{
+    color:#b9d1fa;
+}
+.logo{
+    height:60px;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.logo img{
+    height:100%;
+}
+.search{
+    height:60px;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.hot-words{
+    margin-top:5px;
+}
+.hot-words a{
+    margin-left:5px;
+}
+
+.footer{
+    width:100%;
+    margin:0;
+    padding-top:10px;
+    padding-bottom:0px;
+    background-color:#eee;
+}
+
+
+
+#login_user{
+    margin-bottom:20px;
+}
+#login_pass{
+    margin-top:20px;
+}
