@@ -35,10 +35,15 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'accounts',
-    'userena',
-    'guardian',
-    'easy_thumbnails',
+    #'accounts',
+    #'userena',
+    #'guardian',
+    #'easy_thumbnails',
+    'djcelery',
+    'app',
+    'siteuser.users',
+    'siteuser.upload_avatar',
+    'siteuser.notify',
 )
 
 MIDDLEWARE_CLASSES = (
