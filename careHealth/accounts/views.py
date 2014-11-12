@@ -50,7 +50,7 @@ def register(request):
 
     # Render the template depending on the context
     return render_to_response(
-        'account/register.html',
+        'accounts/register.html',
         {'user_form': user_form,
          'profile_form': profile_form,
          'registered': registered},

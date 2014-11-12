@@ -40,7 +40,7 @@ INSTALLED_APPS = (
     #'guardian',
     #'easy_thumbnails',
     'djcelery',
-    'app',
+    #'app',
     'siteuser.users',
     'siteuser.upload_avatar',
     'siteuser.notify',
@@ -61,7 +61,10 @@ API_IDS = {
 
 TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, "web"),
+    os.path.join(BASE_DIR, "accounts/templates"),
 )
+
+AVATAR_DIR = os.path.join(BASE_DIR, "static/image/avatar/")
 
 ROOT_URLCONF = 'careHealth.urls'
 
